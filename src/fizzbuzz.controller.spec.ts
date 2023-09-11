@@ -15,7 +15,7 @@ describe('FizzbuzzController', () => {
   });
 
   test("probamos si es múltiplo de 3 con fizz", () => {
-    expect(controller.fizzbuzz(3git checkout -b mi-rama)).toBe("fizz");
+    expect(controller.fizzbuzz(3)).toBe("fizz");
   })
 
 
